@@ -1,0 +1,12 @@
+<h1>Client</h1>
+
+<div data-controller="account-details">
+  <input type='text' data-target='account-details.accountId' data-action='focusout->account-details#populateClientSelector'>
+  <p>Name</p>
+  <div data-target='account-details.name'>
+  </div>
+  <p>Account</p>
+  <div data-target='account-details.account'>
+  </div>
+  <%= @components %>
+</div>
